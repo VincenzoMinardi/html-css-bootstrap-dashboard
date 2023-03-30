@@ -1,5 +1,28 @@
 aside{
-    height: 100vh;
-    width: 150px;
-    background-color: black;
+    height: calc(100vh - 96px);
+    width: 160px;
+    background-color: rgb(5, 30, 52);
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 96px;
+    position: relative;
+    
 }
+.under-nav{
+    height: 250px;
+}
+
+.text-light{
+    list-style: none;
+}
+
+.icon{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+
