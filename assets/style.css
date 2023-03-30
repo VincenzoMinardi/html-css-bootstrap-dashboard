@@ -15,14 +15,30 @@ aside{
     height: 250px;
 }
 
-.text-light{
+.text-white{
     list-style: none;
 }
 
 .icon{
     position: absolute;
     bottom: 0;
+}
+
+main{
+     overflow: scroll; 
+    position:fixed;
+    top: 96px;
+    left: 160px;
+    height: 100vh;
+    width: 91.5%;
     
 }
 
+.under-bar{
+    height: 200px;
+    background-color:rgb(27, 114, 232);
+}
 
+.cont-flex{
+    display: flex;
+}
