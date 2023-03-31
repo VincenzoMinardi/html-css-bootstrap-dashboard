@@ -11,9 +11,6 @@ aside{
     position: relative;
     
 }
-.under-nav{
-    height: 250px;
-}
 
 .text-white{
     list-style: none;
@@ -35,16 +32,25 @@ main{
 }
 
 .under-bar{
-    height: 150px;
+    
     background-color:rgb(27, 114, 232);
     padding: 3px;
+    
 }
 
 .cont-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
-.height{
-    
-    height: 28px;
+.color{
+    background-color: rgb(22, 91, 186);
+}
+
+.cont-card{
+    padding: 1rem;
+}
+
+.size-img{
+    height: 25px;
 }
