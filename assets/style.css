@@ -29,6 +29,7 @@ main{
     height: 100vh;
     width: calc(100% - 160px);
     
+    
 }
 
 .under-bar{
@@ -47,10 +48,26 @@ main{
     background-color: rgb(22, 91, 186);
 }
 
-.cont-card{
-    padding: 1rem;
-}
-
 .size-img{
     height: 25px;
+}
+
+.hover:hover{
+    background-color: lightgray;
+}
+
+@media (max-width:991px) {
+    aside{
+        width: 70px;
+    }
+
+    .hover{
+        display: none;
+    }
+    
+    
+    main{
+        width: calc(100% - 70px);
+    }
+    
 }
