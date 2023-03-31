@@ -29,6 +29,8 @@ main{
     height: 100vh;
     width: calc(100% - 160px);
     
+    padding-bottom: 4rem;
+    
     
 }
 
