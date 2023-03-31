@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -34,8 +34,8 @@
                         <li><a class="dropdown-item" href="#">Fatturazione</a></li>
                         <li><a class="dropdown-item" href="#">Logout</a></li>
                     </ul>
-
                 </div>
+            </div>
         </nav>
     </div>
 
@@ -56,26 +56,78 @@
             </li>
         </ul>
     </aside>
+    <!-- TABLE -->
     <main>
         <div class="under-bar">
             <div class="p-3 text-white">
                 <div class="row">
                     <div class="col-12 col-md-4 order-md-3">
                         <span class="fs-3">Nuovi studenti</span>
-                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                            aria-controls="offcanvasRight"><i class="fs-1 align-middle fa-regular fa-square-plus"
-                            style="color:#ffffff;"></i></button>
-                        
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                class="fs-1 align-middle fa-regular fa-square-plus" style="color:#ffffff;"></i></button>
+
+                        <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
                             <div class="offcanvas-header">
                                 <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                        
+                                <form class="row g-3 p-3">
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Nome</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Cognome</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">E-mail</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="inputAddress">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="inputAddress" class="form-label">Città</label>
+                                        <input type="text" class="form-control" id="inputAddress">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="inputState" class="form-label">State</label>
+                                        <select id="inputState" class="form-select">
+                                          <option selected>Scegli...</option>
+                                          <option>...</option>
+                                        </select>
+                                      </div>
+                                    <div class="col-2">
+                                        <label for="inputAddress" class="form-label">CAP</label>
+                                        <input type="text" class="form-control" id="inputAddress">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                Seleziona per proseguire
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                        <button type="submit" class="btn btn-warning">Svuota</button>
+                                    </div>
+                                    
+                                </form>
                             </div>
                         </div>
-                        </div>
+                    </div>
                     <div class="col-12 col-md-4">
                         <span class="fs-1">Boolean</span>
                         <span class="badge rounded-pill color">Piano Blaze</span>
@@ -298,12 +350,14 @@
                                     <li class="list-group-item">
                                         <input class="form-check-input me-1" type="checkbox" value=""
                                             id="secondCheckbox">
-                                        <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in classe#75</label>
+                                        <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in
+                                            classe#75</label>
                                     </li>
                                     <li class="list-group-item">
                                         <input class="form-check-input me-1" type="checkbox" value=""
                                             id="thirdCheckbox">
-                                        <label class="form-check-label" for="thirdCheckbox">Controllare username Github studenti</label>
+                                        <label class="form-check-label" for="thirdCheckbox">Controllare username Github
+                                            studenti</label>
                                     </li>
                                 </ul>
                             </div>
@@ -331,6 +385,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
     </main>
 
